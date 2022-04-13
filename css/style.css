@@ -19,8 +19,7 @@ body {
     
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    /*background: #0d1218;*/
-    background: pink;
+    background: #0d1218;
 }
 
 .container {
@@ -68,7 +67,7 @@ body {
     border: 3px solid white;
     border-radius: 50%;
     z-index: 2;
-    background:  #ff0000;/* #171d24 */;
+    background: #171d24;
 }
 
 /* BASE NUMBER */
@@ -108,8 +107,10 @@ span b {
 }
 
 /* CIRCLES */
-/* .content-cicle {
-   
+.content-cicle {
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox; 
@@ -117,16 +118,15 @@ span b {
     justify-content: center;
         -webkit-box-pack: center;
         -moz-flex-pack: center;
-    
 
     align-items: center;
         -webkit-box-align: center;
         -moz-box-align: center;
-} */
+} 
 
 .circle {
     position: absolute;
-
+    
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
