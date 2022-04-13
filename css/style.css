@@ -72,7 +72,7 @@ body {
 
 /* BASE NUMBER */
 
-.content-numbers, .content-cicle {
+.content-numbers {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -107,7 +107,7 @@ span b {
 }
 
 /* CIRCLES */
-.content-cicle {
+/* .content-cicle {
    
     display: flex;
     display: -webkit-box;
@@ -121,7 +121,7 @@ span b {
     align-items: center;
         -webkit-box-align: center;
         -moz-box-align: center;
-}
+} */
 
 .circle {
     position: absolute;
