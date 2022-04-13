@@ -19,7 +19,8 @@ body {
     
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: #0d1218;
+    /*background: #0d1218;*/
+    background: pink;
 }
 
 .container {
