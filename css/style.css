@@ -77,7 +77,12 @@ span {
     text-align: center;
     inset: 20px;
 
-    transform: rotate(calc(30deg * var(--i))); /* 360 / 12 */
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+
+    transform: rotate(calc(30deg * var(--i))); /* 360 / 12 = 30deg*/
         -webkit-transform: rotate(calc(30deg * var(--i)));
         -ms-transform: rotate(calc(30deg * var(--i)));
 }
