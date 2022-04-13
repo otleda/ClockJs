@@ -67,7 +67,7 @@ body {
     border: 3px solid white;
     border-radius: 50%;
     z-index: 2;
-    background: #171d24;
+    background:  #ff0000;/* #171d24 */;
 }
 
 /* BASE NUMBER */
